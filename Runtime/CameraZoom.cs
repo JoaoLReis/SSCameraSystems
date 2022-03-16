@@ -34,7 +34,7 @@ public class CameraZoom : MonoBehaviour
         }
         else
         {
-            Debug.LogError("Could not calculate Zoom conditions properly");
+            // Debug.LogError("Could not calculate Zoom conditions properly");
             _zoomStepDelta = transform.forward;
         }
 
